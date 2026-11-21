@@ -4,7 +4,7 @@
 //Im Pandora, hi, some notes are for my class, I will clean this later from the github, maybe, idk.
 //Aviso: Unicamente funciona para enviar numeros, por favor no envien data como caracteres
 //                  0   1   2   3   4   5  6    7   8   9   10  11 12  13  14  15  16   17  18  19  20  21 22  23   24  25  26  27  28  29  30  31
-//                 P  | SMM   |MSB         DATA                                                        LSB|SDI    |LSB           Label          MSB
+//                 P  | SMM   |LSB         DATA                                                        MSB|SDI    |LSB           Label          MSB
 bool signal[32] = { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 };
 const int valor=100;
 //works 100% gg ez subanle la dificultad a los bots
