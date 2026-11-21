@@ -87,13 +87,13 @@ void setup(){
 
 void loop(){
   //set label, first and second number have scope of 0-7, 3rd has scope of 0-3
-  label(0,6,2);
+  label(0,0,0);
 
   //manually set source/destination, accepts 1 or 0 for both imputs
   sdi(0,0);
 
   //inset the data into the string, replace 0 with value or variable that want sent, max values of 262,144 acounting for sign 
-  Data(3);
+  Data(0);
 
   //designs the type of data, set the smm encoding, for purposes of the practice both stay in 11, normal operation (NO)
   smm();
@@ -103,5 +103,5 @@ void loop(){
 
   //prints into console the string of data
   check();
-  delay(10000);
+  delay(10000);//delay is only for testing on a live esp, can be deleted.
 }
